@@ -1,8 +1,13 @@
-body {
+#box {
   background-color: blue;
+  text-align: center;
 }
-#Div1 {
-  height: 100px;
-  width: 100px;
-  background-color: rgb(219, 180, 71);
+
+.heading {
+  color: red;
+  text-align: right;
+}
+
+button {
+  background-color: green;
 }
