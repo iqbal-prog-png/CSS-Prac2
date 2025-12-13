@@ -1,5 +1,85 @@
 body {
-  margin: 0;
+  text-align: center;
+  background-color: rgb(43, 20, 20);
+}
+
+#container {
+  width: 700px;
+  height: 300px;
+  display: flex;
+  flex-direction: row; /* main axis  */
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+div {
+  height: 100px;
+  width: 50px;
+  display: inline-block;
+  border: 2px solid black;
+}
+
+#box1 {
+  background-color: aqua;
+  flex-grow: 1;
+}
+
+#box2 {
+  background-color: blue;
+  height: 200px;
+  flex-grow: 2;
+  align-self: center;
+}
+
+#box3 {
+  background-color: blueviolet;
+  height: 75px;
+}
+
+#box4 {
+  background-color: brown;
+}
+
+#box5 {
+  background-color: gold;
+}
+
+/* * {
   padding: 0;
-  font-family: Arial;
+  margin: 0;
+  
+} */
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.884);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 350px;
+}
+
+a {
+  text-decoration: none;
+  background-color: blueviolet;
+  color: antiquewhite;
+}
+
+li {
+  list-style-type: none;
+}
+
+#content {
+  height: 400px;
+  width: 400px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#in {
+  background-color: bisque;
+  height: 100px;
+  width: 100px;
 }
