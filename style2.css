@@ -1,4 +1,39 @@
 /* Practice Set 4 */
-div {
-  color: rgb(209, 24, 24);
+
+* {
+  padding: 0;
+  margin: 0;
+}
+#navbar {
+  background-color: #0f1111;
+  height: 60px;
+}
+#a1 {
+  color: #ff9203;
+  font-size: 25px;
+}
+a {
+  margin-right: 190px;
+  color: aliceblue;
+}
+
+button {
+  background-color: #eb7500;
+  color: rgb(0, 0, 0);
+}
+
+.contentBox {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  display: inline-block;
+}
+#content {
+  height: 520px;
+}
+
+footer {
+  background-color: #0f1111;
+  color: white;
+  text-align: center;
 }
