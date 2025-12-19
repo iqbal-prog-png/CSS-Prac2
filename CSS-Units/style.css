@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(122, 122, 126);
+  color: azure;
+}
+
+.box1 {
+  height: 100px;
+  width: 200px;
+  background-color: rgb(23, 194, 0);
+  font-size: 10px;
+}
+
+.box2 {
+  height: 50px;
+  width: 30%;
+  background-color: blue;
+  margin: 10%;
+  font-size: 2em;
+  /* width: 5em; */
+  width: 5rem;
+}
